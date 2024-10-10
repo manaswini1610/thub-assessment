@@ -150,4 +150,8 @@ text-align: left;
         line-height: normal;
         text-align: center;
     }
+    .single-box{
+        height:100%;
+        width:100%;
+    }
 }
