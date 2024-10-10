@@ -1,0 +1,100 @@
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+
+.points ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    list-style-type: none; 
+}
+
+.points ul li {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    
+    position: relative; /* Make sure li is positioned */
+    padding-left: 20px; /* Add padding to the left */
+}
+
+.points ul li::before {
+    content: '✓'; /* Unicode for tick mark */
+    background-color: #015AF2;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    display: inline-block; /* Change display type */
+    text-align: center; /* Center the text */
+    line-height: 15px; /* Center the checkmark vertically */
+    margin-right: 5px; /* Add space between the checkmark and text */
+}
+
+
+
+.features-title h4{
+    font-family:  Poppins;
+    font-size: 18px;
+    color: #015AF2;
+    margin-bottom: 0px;
+
+}
+
+.features-heading h3{
+    font-family: Kanit;
+    font-weight: 600;
+    font-size: 52px;
+    margin: 0px;
+    line-height: 50px;
+
+
+}
+.features-para p{
+font-family:poppins ;
+font-size:14px ;
+font-weight:400 ;
+margin-top:  20px;
+
+}
+.image img{
+    width: 488px;
+height: 526.89px;
+margin-top: 10px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .features-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .features-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-heading h3 {
+        font-size: 30px;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    
+}

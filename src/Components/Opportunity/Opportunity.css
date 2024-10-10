@@ -1,0 +1,52 @@
+.opportunity{
+    width: 588px;
+    height: 346px;
+
+}
+
+
+.opportunity-container{
+    display: flex;
+    justify-content: center ;
+
+}
+.opportunity-heading h3{
+    font-family: Kanit;
+    font-weight: 600;
+    font-size: 52px;
+    margin: 0px;
+    line-height: 50px;
+
+}
+.opportunity-para p{
+    font-family:poppins ;
+    font-size:14px ;
+    font-weight:400 ;
+}
+
+.explore{
+    font-family: kanit;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 768px) {
+    .opportunity{
+        width: 100%;
+    }
+    .opportunity-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .graph-img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .opportunity-heading h3 {
+        font-size: 30px;
+        line-height: normal;
+        text-align: center;
+    }
+}

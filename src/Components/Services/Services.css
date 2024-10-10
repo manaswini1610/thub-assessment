@@ -1,0 +1,126 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.service-boxes{
+    display: flex;
+    gap: 10px;
+}
+
+.service-heading h4{
+    font-family:  Poppins;
+    font-size: 18px;
+    color: #015AF2;
+    margin: 0px;
+}
+
+.services{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-heading h3{
+    text-align: center;
+    font-family: Kanit;
+    font-weight: 600;
+    font-size: 52px;
+    margin: 0px;
+    line-height: 60px;
+}
+
+.service-para p{
+    font-family:poppins ;
+    font-size:14px ;
+    font-weight:400 ;
+    margin-top: 2px;
+
+}
+
+.each-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ width: 353.33px;
+height: 235px;
+border-radius: 10px;
+border: 2px solid #00092A;
+padding-top: 30px;
+
+}
+
+.allservices{
+    font-family: kanit;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.allservices{
+    border: 1px solid #015AF2;
+    margin-top: 10px;
+    width: 170px;
+height: 42px;
+top: 508.39px;
+padding: 10px 39.23px 20px 39.59px;
+border-radius: 4px ;
+font-family: Kanit;
+font-size: 15px;
+font-weight: 300;
+line-height: 22.5px;
+text-align: center;
+color: #015AF2;
+margin-bottom: 110px;
+margin-top: 50px;
+
+}
+
+.par1 p{
+    font-family: Kanit;
+font-size: 20.46px;
+font-weight: 400;
+line-height: 26.4px;
+text-align: center;
+color: #00092A;
+
+}
+
+.par2 p{
+    font-family: Poppins;
+font-size: 13.02px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color: #666666;
+
+}
+.backgroundSticker{
+    background-image: url('../../assets/background2.jpeg');
+    
+    
+}
+.backgroundSticker p{
+    color:  #ECECEC !important;
+}
+@media screen and (max-width: 768px) {
+    .service-boxes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .service-boxes{
+        flex-direction: column;
+    }
+    .main-heading h3{
+        font-size: 30px;
+        line-height: normal;
+    }
+}

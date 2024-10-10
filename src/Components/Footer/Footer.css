@@ -1,0 +1,96 @@
+.footerContainerMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+    color: #fff;
+    font-family: Poppins;
+    gap: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;    */
+    padding: 100px;
+    color: #fff;
+    font-family: Poppins;
+    gap: 50px;
+}
+.title{
+    display: flex;
+    margin-bottom: 20px;
+}
+.footerContainerMain p{
+    margin: 0px;
+}
+
+.companyInfo{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+}
+.logoImage{
+    width: 40px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+
+}
+.address {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.companyContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.companyContainer li {
+    list-style: none;
+
+}
+.informationContiainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.informationContiainer li {
+    list-style: none;
+}
+.line{
+    display: flex;
+   
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 50px 25px 50px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+   .footer{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+}
