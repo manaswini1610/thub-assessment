@@ -96,6 +96,8 @@ margin-top: 10px;
         text-align: center;
     }
     .features-para p{
+        display:flex;
+        justify content:center;
         width:100%;
         text-align:center;
         margin: 0px 5px;
