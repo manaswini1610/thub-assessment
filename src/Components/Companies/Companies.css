@@ -1,0 +1,54 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+    
+}
+.companies-text{
+    font-family: kanit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 333px;
+    height: 40px;
+
+}
+.companies{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 850px;
+    height: 56px;
+    
+}
+
+.companies-text h5{
+ margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 20px;
+    }
+    .companies {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        
+    }
+    
+
+   
+}
+
+@media screen and (max-width: 480px) {
+    
+}

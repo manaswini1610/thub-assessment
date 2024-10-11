@@ -1,0 +1,87 @@
+.journey-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px ;
+    padding-bottom: 40px;
+
+}
+
+
+.journey-heading h3{
+    text-align: center;
+    font-family: Kanit;
+    font-weight: 600;
+    font-size: 52px;
+    margin: 0px;
+}
+
+.journey-para{
+    display: flex;
+    justify-content: center;
+    font-family:poppins ;
+    font-size:14px ;
+    font-weight:400 ;
+    width: 472.28px;
+    text-align: center;
+
+}
+
+.journey-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.journey-box input {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    width: 30%;
+    border: 1px solid #d9d9d9;
+}
+.journey-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: blue;
+    padding: 10px 40px;
+    margin: 0px;
+    color: white;
+
+}
+.call-uparrow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+}
+.call-uparrow img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    padding: 5px;
+    height: 15px;
+    margin-right: 10px;
+    border: 1px solid #d9d9d9;
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    .journey-para{
+        width: 100%;
+    }
+    .journey-heading h3{
+        font-size: 30px;
+        
+    }
+}

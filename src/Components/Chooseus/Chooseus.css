@@ -1,0 +1,53 @@
+.chooseus-container{
+    display: flex;
+    justify-content: center;
+    background-image: url('../../assets/flowerimg.svg') ;
+    background-color:#F9F9F9;
+
+}
+.chooseus-img img{
+ width: 777.2px;
+height: 385.8px;
+gap: 0px;
+opacity: 0px;
+}
+
+.chooseus-text h3{
+font-family: Kanit;
+font-size: 55px;
+font-weight: 600;
+line-height: 55px;
+text-align: left;
+width: 453.08px;
+height: 165px;
+gap: 0px;
+opacity: 0px;
+}
+
+@media screen and (max-width: 768px) {
+   .chooseus-container{
+    flex-direction: column;
+   }
+   .chooseus-img img{
+    width: 100%;
+   }
+   .chooseus-text h3{
+    width: 100%;
+    text-align: center;
+   }
+}
+
+
+@media screen and (max-width: 480px) {
+    .chooseus-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .chooseus-text h3{
+        width: 100%;
+        font-size: 30px;
+        line-height: normal;
+        height: auto;
+        margin: 0px;
+    }
+}

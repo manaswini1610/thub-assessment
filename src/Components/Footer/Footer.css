@@ -1,0 +1,262 @@
+.footerContainerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+    color: #fff;
+    font-family: Poppins;
+    gap: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 0px;
+    color: #fff;
+    font-family: Poppins;
+    gap: 50px;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footerContainerMain p {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.companyInfo p {
+    width: 347px;
+}
+
+.companyInfo {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+}
+
+.companyInfo img {
+    width: 40px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.addressContainer {
+    margin-left: 90px;
+    line-height: 1px;
+}
+
+.address {
+    display: flex;
+    gap: 10px;
+    margin: 0px;
+    align-items: center;
+}
+
+.companyName {
+    margin-top: -18px;
+}
+
+.companyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.companyContainer li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.information {
+    margin-top: -18px;
+}
+
+.informationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informationContainer li {
+    list-style: none;
+}
+
+.line {
+    display: flex;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 160px 25px 160px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+/* Mobile Response for 768px and below */
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .companyInfo p{
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+    }
+
+
+    .companyInfo img {
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .icons {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .companyName {
+        margin-top: 20px;
+    }
+
+    .companyContainer {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .informationContainer {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .addressContainer {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .address {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .icons {
+        gap: 15px;
+    }
+
+    .line {
+        margin: 20px 0;
+    }
+
+    .copyright {
+        margin: 20px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logoImage {
+        width: 50px;
+    }
+
+    .title{
+        justify-content: center;
+    }
+}
+
+/* Mobile Response for 480px and below */
+
+@media screen and (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .companyInfo {
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .companyInfo p {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .addressContainer {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .companyName {
+        margin-top: 20px;
+    }
+
+    .companyContainer {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .informationContainer {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .icons {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .line {
+        margin: 15px 0;
+    }
+
+    .copyright {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .companyInfo img {
+        width: 40px; /* Smaller image for smaller screens */
+        display: block;
+        margin: 0 auto;
+    }
+
+    .address {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .title{
+        justify-content: center;
+    }
+}
