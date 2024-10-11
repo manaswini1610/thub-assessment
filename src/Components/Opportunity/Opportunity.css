@@ -18,18 +18,24 @@
     font-size: 52px;
     margin: 0px;
     line-height: 50px;
+    color: #fff;
 
 }
 .opportunity-para p{
     font-family:poppins ;
     font-size:14px ;
     font-weight:400 ;
+    color: #fff;
 }
 
 .explore{
     font-family: kanit;
     font-size: 15px;
     font-weight: 300;
+    color: #fff;
+    background-color: #015AF2;
+    width: fit-content;
+    padding: 1px 40px;
 }
 
 
