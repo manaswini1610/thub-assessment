@@ -96,6 +96,8 @@ background: #F9F9F9;
         font-size: 30px;
     }
     .feedback-para{
+        display: flex;
+        justify-content: center;
         width:100%;
         text align: center;
         margin:0px 6px;
