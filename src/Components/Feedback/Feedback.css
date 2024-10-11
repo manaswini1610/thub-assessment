@@ -97,5 +97,6 @@ background: #F9F9F9;
     }
     .feedback-para{
         width:100%;
+        margin-left: 5px;
     }
 }
