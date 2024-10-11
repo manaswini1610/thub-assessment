@@ -95,7 +95,7 @@ background: #F9F9F9;
     .feedback-subheading h3{
         font-size: 30px;
     }
-    .feedback-para{
+    .feedback-para p{
         display: flex;
         justify-content: center;
         
